@@ -1,0 +1,117 @@
+[14/03/2016 12:33:21]  Skipping the test : VerifyLoginPage
+[14/03/2016 12:33:21]  ***********************************VerifyLoginPage --- Skip
+[14/03/2016 12:33:21]  Skipping the test : VerifySignUpPage
+[14/03/2016 12:33:21]  ***********************************VerifySignUpPage --- Skip
+[14/03/2016 12:33:21]  Executing the test : VerifyProfileData
+[14/03/2016 12:33:21]  Skipping the test : verifySignUpNewUser
+[14/03/2016 12:33:21]  ***************************TestCase****verifySignUpNewUser --- Skip
+[14/03/2016 12:33:21]  Executing the test : verifyElementsNewUserAfterLogin
+[14/03/2016 12:33:21]  Executing test case : Verifying all the page elemenst getting displayed on Profile Pageafter User has Logged in for first Time...
+[14/03/2016 12:33:21]  Executing test case : Verifying UserName is getting displayed on Profile Pageafter User has Logged in for first Time...
+[14/03/2016 12:33:21]  Navigating to the test site - Facebook ...
+[14/03/2016 12:33:48]  Asserting  title  where : Expected title = Log in to Facebook | Facebook
+[14/03/2016 12:33:53]  Actual title = Log in to Facebook | Facebook and matches with Expected title = Log in to Facebook | Facebook
+[14/03/2016 12:33:53]  Navigated to the test site - Facebook
+[14/03/2016 12:33:53]  Logging in to the test site - Facebook
+[14/03/2016 12:33:53]  Successfully Retrieved data from Xls File :-  Username : garretthussey2016@gmail.com and Password : mindfire1
+[14/03/2016 12:33:53]  Verifying whether Element : 'Email' Input-box is present
+[14/03/2016 12:33:53]  Waiting for web element to load on the page
+[14/03/2016 12:33:55]  Waiting ends ... Web element loaded on the page
+[14/03/2016 12:33:55]  Element : 'Email' Input-box is present
+[14/03/2016 12:33:55]  Verifying whether Element : 'Password' Input-box is present
+[14/03/2016 12:33:55]  Waiting for web element to load on the page
+[14/03/2016 12:33:55]  Waiting ends ... Web element loaded on the page
+[14/03/2016 12:33:56]  Element : 'Password' Input-box is present
+[14/03/2016 12:33:56]  Verifying whether Element : 'LogIn' Button is present
+[14/03/2016 12:33:56]  Waiting for web element to load on the page
+[14/03/2016 12:33:56]  Waiting ends ... Web element loaded on the page
+[14/03/2016 12:33:56]  Element : 'LogIn' Button is present
+[14/03/2016 12:33:56]  Clearing field : 'Email' Input-box
+[14/03/2016 12:33:56]  Waiting for web element to load on the page
+[14/03/2016 12:33:56]  Waiting ends ... Web element loaded on the page
+[14/03/2016 12:33:56]  Cleared : 'Email' Input-box
+[14/03/2016 12:33:56]  Sending Values in : 'Email' Input-box
+[14/03/2016 12:33:56]  Waiting for web element to load on the page
+[14/03/2016 12:33:56]  Waiting ends ... Web element loaded on the page
+[14/03/2016 12:33:57]  Inputted 'garretthussey2016@gmail.com' text into : 'Email' Input-box
+[14/03/2016 12:33:57]  Clearing field : 'Password' Input-box
+[14/03/2016 12:33:57]  Waiting for web element to load on the page
+[14/03/2016 12:33:57]  Waiting ends ... Web element loaded on the page
+[14/03/2016 12:33:57]  Cleared : 'Password' Input-box
+[14/03/2016 12:33:57]  Sending Values in : 'Password' Input-box
+[14/03/2016 12:33:57]  Waiting for web element to load on the page
+[14/03/2016 12:33:58]  Waiting ends ... Web element loaded on the page
+[14/03/2016 12:33:58]  Inputted 'mindfire1' text into : 'Password' Input-box
+[14/03/2016 12:33:58]  Clicking on : 'LogIn' Button
+[14/03/2016 12:33:58]  Waiting for web element to load on the page
+[14/03/2016 12:33:58]  Waiting ends ... Web element loaded on the page
+[14/03/2016 12:34:02]  Clicked on : 'LogIn' Button
+[14/03/2016 12:34:09]  Clicked on the element : ''LogIn' Button and new page loaded with title : Facebook
+[14/03/2016 12:34:09]  Successfully logged in to the test site - Facebook
+[14/03/2016 12:34:09]  Successfully Retrieved data from Xls File :-  Username : Garrett
+[14/03/2016 12:34:09]  Successfully Retrieved data from Xls File :-  EmailId : garretthussey2016@gmail.com
+[14/03/2016 12:34:09]  Retrieving Text from : 'User Name' displayed on Profile after Login
+[14/03/2016 12:34:09]  Waiting for web element to load on the page
+[14/03/2016 12:34:39]  Error came : Unable to locate element: {"method":"xpath","selector":"//div[@id='u_0_1']//div/a/span"}
+Command duration or timeout: 30.08 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'soumyajit7', ip: '192.168.250.28', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_73'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=45.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 95e2e3b1-aa5c-425c-8fbb-39e3ae0e657a
+*** Element info: {Using=xpath, value=//div[@id='u_0_1']//div/a/span}
+[14/03/2016 12:35:09]  Error came while waiting for element to appear : Timed out after 60 seconds waiting for testscripts.FunctionLibrary$3@a1f72f5
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'soumyajit7', ip: '192.168.250.28', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_73'
+Driver info: org.openqa.selenium.support.events.EventFiringWebDriver
+[14/03/2016 12:35:39]  Error came : Unable to locate element: {"method":"xpath","selector":"//div[@id='u_0_1']//div/a/span"}
+Command duration or timeout: 30.06 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'soumyajit7', ip: '192.168.250.28', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_73'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=45.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 95e2e3b1-aa5c-425c-8fbb-39e3ae0e657a
+*** Element info: {Using=xpath, value=//div[@id='u_0_1']//div/a/span}
+[14/03/2016 12:36:09]  Error while Getting Text from ''User Name' displayed on Profile after Login' : Unable to locate element: {"method":"xpath","selector":"//div[@id='u_0_1']//div/a/span"}
+Command duration or timeout: 30.03 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'soumyajit7', ip: '192.168.250.28', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_73'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=45.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 95e2e3b1-aa5c-425c-8fbb-39e3ae0e657a
+*** Element info: {Using=xpath, value=//div[@id='u_0_1']//div/a/span}
+[14/03/2016 12:36:09]  Asserting  Text  where : ExpectedText = Garrett  and ActualText = Fail : Error while Getting Text from ''User Name' displayed on Profile after Login' : Unable to locate element: {"method":"xpath","selector":"//div[@id='u_0_1']//div/a/span"}
+Command duration or timeout: 30.03 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'soumyajit7', ip: '192.168.250.28', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_73'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=45.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 95e2e3b1-aa5c-425c-8fbb-39e3ae0e657a
+*** Element info: {Using=xpath, value=//div[@id='u_0_1']//div/a/span}
+[14/03/2016 12:36:09]  Error while Asserting Text for - 'User Name' displayed on Profile after Login : expected:<[Garrett]> but was:<[Fail : Error while Getting Text from ''User Name' displayed on Profile after Login' : Unable to locate element: {"method":"xpath","selector":"//div[@id='u_0_1']//div/a/span"}
+Command duration or timeout: 30.03 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'soumyajit7', ip: '192.168.250.28', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_73'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=45.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 95e2e3b1-aa5c-425c-8fbb-39e3ae0e657a
+*** Element info: {Using=xpath, value=//div[@id='u_0_1']//div/a/span}]>
+[14/03/2016 12:36:09]  ***Result of execution -- Fail : Error while Asserting Text for - 'User Name' displayed on Profile after Login : expected:<[Garrett]> but was:<[Fail : Error while Getting Text from ''User Name' displayed on Profile after Login' : Unable to locate element: {"method":"xpath","selector":"//div[@id='u_0_1']//div/a/span"}
+Command duration or timeout: 30.03 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.52.0', revision: '4c2593cfc3689a7fcd7be52549167e5ccc93ad28', time: '2016-02-11 11:22:43'
+System info: host: 'soumyajit7', ip: '192.168.250.28', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_73'
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{applicationCacheEnabled=true, rotatable=false, handlesAlerts=true, databaseEnabled=true, version=45.0, platform=WINDOWS, nativeEvents=false, acceptSslCerts=true, webStorageEnabled=true, locationContextEnabled=true, browserName=firefox, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: 95e2e3b1-aa5c-425c-8fbb-39e3ae0e657a
+*** Element info: {Using=xpath, value=//div[@id='u_0_1']//div/a/span}]>
+[14/03/2016 12:36:10]  SCREENSHOT taken under : D:\PracticeSelenium\Facebook\Reports\Suite1_TC3_TS2_verifyElementsNewUserAfterLogin0.jpg
+[14/03/2016 12:36:10]  Error came : null
+[14/03/2016 12:36:10]  ***********************************verifyElementsNewUserAfterLogin --- Fail
+[14/03/2016 12:36:10]  Skipping the test : 
+[14/03/2016 12:36:10]  ***************************TestCase**** --- Skip
